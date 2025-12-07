@@ -1,12 +1,8 @@
-import java.lang.Math;
-import java.util.Arrays;
 import java.util.Scanner;
-
-// 프로그래머스 특이한 정렬
 class Solution {
-        static public int solution(int order) {
+    public static int solution(int order) {
             int answer = 0;
-
+            //
             //1
             /**
             String s = String.valueOf(order);
@@ -32,4 +28,4 @@ class Solution {
             int n = sc.nextInt();
             System.out.println(solution(n));
         }
-        }
+}
